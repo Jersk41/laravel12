@@ -17,7 +17,7 @@ class BarangFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'nama' => fake()->word(),
         ];
     }
 }
